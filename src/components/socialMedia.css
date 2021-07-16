@@ -1,0 +1,26 @@
+.socialMedia {
+    width: 100%;
+    background-color: #0a0a0a;
+    color: #088008;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.socialMedia > p {
+    color: #088008;
+    font-size: clamp(.9rem, 1.5rem, 1vw);
+}
+
+.socialMedia > address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia > address > a {
+    color: #088008;
+    font-size: 4rem;
+    margin: 0 2rem;
+}
+

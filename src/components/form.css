@@ -1,0 +1,61 @@
+.signup {
+    background-color: #0a0a0a;
+    
+    text-align: center;
+
+    padding: 1rem 1rem;
+}
+
+.signup > div {
+    background: #039403;
+    padding: 2rem;
+    width: clamp(30rem, 30%, 50rem);
+    margin: 0 auto;
+    border-radius: .5rem;
+    box-shadow: #039403 0 0 1.8rem;
+}
+
+.signup > div > p {
+    color: #1a2c1a;
+    font-size: clamp(2rem, 2rem, 4rem);
+}
+
+.signup > div > form {
+    background: #292830;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 2rem auto;
+    box-sizing: border-box;
+
+    width: clamp(30rem, 40rem, 100%);
+
+}
+
+.signup > div > form > input {
+    background: transparent;
+    border: none;
+    width: 100%;
+
+    font-size: clamp(1rem, 1.5rem, 4rem); 
+    color: #088008; 
+
+    padding: 1rem;
+
+    outline: none;
+}
+
+.signup > div > form > button {
+    background-color: #088008;
+    border: none;
+    border-radius: .5rem;
+
+    padding: 1rem;
+    margin: 0;
+
+    color: #1a2c1a;
+    font-size: clamp(1rem, 1.5rem, 4rem);
+}

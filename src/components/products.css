@@ -1,0 +1,71 @@
+.products {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+}
+
+.products > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.products > ul > li{
+    list-style: none;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+
+#hulkArmor,
+#hulkGladiator,
+#hulkTaco,
+#shehulkLawyer,
+#hulkTraditional {
+    position: absolute;
+}
+
+#hulkArmor {
+    top: -85rem;
+    left: calc(50vw - 10rem);
+    width: 20rem;
+}
+
+#shehulkLawyer,
+#hulkTaco,
+#hulkTraditional {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+    #hulkTaco {
+        display: block;
+        top: -25rem;
+        left: 10vw;
+        width: 20rem;
+    }
+    
+    #hulkTraditional {
+        display: block;
+        top: -35rem;
+        right: 5vw;
+        height: 35rem;
+    }
+    
+    #shehulkLawyer {
+        display: block;
+        top: -95rem;
+        right: 10vw;
+        height: 40rem;
+    }
+
+    #hulkArmor {
+        top: -80rem;
+        left: 10vw;
+        width: 25rem;
+    }
+}
+

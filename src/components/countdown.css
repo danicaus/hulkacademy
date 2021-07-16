@@ -1,0 +1,74 @@
+.countdown {
+    position: relative;
+    
+    text-align: center;
+
+    background-color: #0a0a0a;
+
+    padding: .2rem 1rem 5rem 1rem;
+}
+
+.countdown > h2 {
+    color: #088008;
+    font-size: clamp(2rem, 3rem, 2vw);
+
+    margin-bottom: 2rem;
+
+    text-transform: uppercase;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+    
+    text-decoration: none;
+    list-style: none;
+}
+
+.clock > li {
+    text-decoration: none;
+    text-align: center;
+    
+    width: clamp(6rem, 18rem, 18rem);
+    /* width: 18rem; */
+    
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0 .5rem;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    
+    border-radius: .5rem;
+    
+    background-color: #292830;
+    box-shadow: #088008 .1rem .1rem .9rem;
+}
+
+.clock > li > span:first-child {
+    color: #088008;
+    font-size: clamp(2rem, 7rem, 3vw);
+    font-family: 'Days One', sans-serif;
+
+}
+.clock > li > span:last-child {
+    font-size: clamp(.9rem, 1.5rem, 1vw);
+    color: #8b8a8d;
+}
+
+.countdown > p {
+    color: #088008;
+    margin-top: 3rem;
+    font-size: clamp(2rem, 2rem, 4rem);
+}
+
+@media screen and (min-width: 480px) {
+    .clock > li {
+        margin: 0 1.5rem;
+    }
+}
